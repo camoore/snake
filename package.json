@@ -1,0 +1,25 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "A snake arcade game implementation",
+  "main": "game.js",
+  "scripts": {
+    "babel": "babel --presets es2015 src/game.js -o build/snakegame.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camoore/snake.git"
+  },
+  "author": "Cre Moore",
+  "license": "THE UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/camoore/snake/issues"
+  },
+  "homepage": "https://github.com/camoore/snake#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.6.0"
+  }
+}
